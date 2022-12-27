@@ -1,0 +1,49 @@
+:root {
+    --color-primary: #4263eb;
+    --color-secondary: #364fc7;
+
+    --grey-900: #0a0c0d;
+    --grey-800: #212529;
+    --grey-700: #495057;
+    --grey-600: #868e96;
+    --grey-500: #dee2e6;
+    --grey-400: #f8f9fa;
+    --grey-300: rgba(33, 37, 41, 0.5);
+    --white-fixed: #ffffff;
+
+    --like-color: #d7443e;
+
+    --font-general: "Inter", sans-serif;
+    --font-nunito: "Nunito", sans-serif;
+
+    --bold: 700;
+    --semi-bold: 600;
+    --medium: 500;
+    --regular: 400;
+    --light: 300;
+
+    --font-title1: 1.75rem;
+    --font-title2: 1.25rem;
+    --font-regular: 1rem;
+    --font-regular2: 0.875rem;
+    --font-small: 0.75rem;
+
+    --line-height-big: 2.5rem;
+    --line-height-regular: 1.75rem;
+
+    --radius-newPost: 4px;
+    --radius-followBtn: 2px;
+    --radius-modal: 8px;
+}
+body {
+    font-family: var(--font-general);
+}
+header {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+button {
+    font-family: "Inter", sans-serif;
+}
