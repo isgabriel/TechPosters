@@ -80,7 +80,10 @@ function createPost(user, post) {
             postTitle.classList.add("container__post--title");
             postTitle.innerText = `${post[i].title}`;
 
-            postDesc.classList.add("container__post--description");
+            postDesc.classList.add(
+                "container__post--description",
+                "descriptionPosts"
+            );
             postDesc.innerText = `${post[i].text}`;
 
             divBtnModal.classList.add("container__btnModal");

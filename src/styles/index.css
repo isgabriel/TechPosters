@@ -107,6 +107,11 @@
 
     transition: 0.5s;
 }
+.coloredPostBtn {
+    background-color: var(--color-primary) !important ;
+    color: var(--white-fixed) !important ;
+    width: 100px;
+}
 
 /* posts */
 .container__posts {
@@ -136,11 +141,13 @@
     line-height: var(--line-height-big);
 }
 .container__post--description {
-    overflow: hidden;
-    max-height: 20vh;
     font-size: var(--font-regular);
     font-weight: var(--regular);
     line-height: var(--line-height-regular);
+}
+.descriptionPosts {
+    max-height: 14.2vh;
+    overflow: hidden;
 }
 .container__btnModal {
     display: flex;
@@ -241,7 +248,6 @@
 /* Modal */
 .modal__container {
     height: 80%;
-    margin: 50px 20px 50px 20px;
 
     border: none;
     border-radius: var(--radius-modal);
@@ -250,6 +256,7 @@
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding: 0 24px;
 }
 .divBtnModal {
     display: flex;
@@ -274,14 +281,7 @@
     border: 1px solid transparent;
     border-radius: 100%;
 }
-/* .modal__btn:hover {
-    transition: 0.5s;
-    background-color: var(--color-primary);
-    color: var(--white-fixed);
-} */
-.container__divPost {
-    padding: 0 24px;
-}
+
 .descModal {
     max-height: 50%;
     margin-bottom: 40px;
@@ -348,9 +348,7 @@
     .container__post {
         width: 50vw;
     }
-    .container__post--description {
-        max-height: 14vh;
-    }
+
     .btnOpenModal {
         cursor: pointer;
     }
@@ -360,7 +358,7 @@
         margin: 5% auto;
 
         max-width: 50%;
-        max-height: 45%;
+        max-height: 55%;
     }
     .modal__btn:hover {
         transition: 0.6s;
