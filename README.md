@@ -1,57 +1,64 @@
-<img src="./src/assets/img/logo.svg" alt="logo"/>
+# TechPosters
 
-## TechPosters / isgabriel
+![GitHub repo size](https://img.shields.io/github/repo-size/isgabriel/techposters_frontend?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/isgabriel/techposters_frontend?style=for-the-badge)
 
+## Seções do projeto
+
+-   [Descrição do Projeto](#descrição-do-projeto)
+-   [Técnicas e Tecnologias utilizadas no Projeto](#🔨-técnicas-e-tecnologias-utilizadas-no-projeto)
+-   [Ajustes e Melhorias](#ajustes-e-melhorias)
+-   [Colaboradores](#🤝-colaboradores)
+
+## ✔️ Descrição do projeto
 <p>A TechPosters se trata de uma rede social para os profissionais de TI se manterem informados com as notícias diárias publicadas pelos usuários que segue. É possível visualizar os posts em modais, ao clicar em "Abrir Post". Nesse projeto fixei meus conhecimentos sobre responsividade e mobile first, então é possível acessá-lo por qualquer aparelho eletrônico.</p>
 
-## Tecnologias
+<figure>
+    <img src="./src/readme/Home.png" alt="home page screenshot">
+    <figcaption>Página inicial com os posts mais recentes.</figcaption>
+</figure>
+<p> </p>
+<br/>
 
-Aqui estão as tecnologias usadas nesse projeto:
+<figure>
+    <img src="./src/readme/Suggestions to follow.png" alt="follow suggestions">
+    <figcaption>Seção de sugestões para seguir.</figcaption>
+</figure>
+<p> </p>
+<br/>
 
--   HTML
--   CSS
--   Javascript
+<figure>
+    <img src="./src/readme/Modal.png" alt="modal screenshot">
+    <figcaption>Ao clicar em "Abrir post" um modal com o post específico é aberto.</figcaption>
+</figure>
+<p> </p>
+<br/>
 
-## Serviço usado
+## 🔨 Técnicas e Tecnologias utilizadas no Projeto
 
--   Github
+-   `HTML`
+-   `CSS`
+-   `Javascript`
+-   `Github`
+-   `Figma`
 
-## Como usar
+## 🚀 Ajustes e melhorias
 
- <h3>1 - Ao acessar a página, você verá a Home com os posts mais recentes</h3>
- <img src="./src/readme/Home.png" alt="home page screenshot">
+- [ ] Possibilitar a criação de um novo post.
 
- <h3>2 - Ao clicar na aba de "Digitar descrição do post" o botão "Postar" é habilitado :)</h3>
- <img src="./src/readme/New Post.png" alt="new post section">
+## 🤝 Colaboradores
 
- <h3>3 - Também tem a aba de sugestões para você seguir e o botão possui uma alteração de cor quando é clicado <3</h3>
- <img src="./src/readme/Suggestions to follow.png" alt="follow suggestions">
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/isgabriel">
+        <img src="https://avatars.githubusercontent.com/u/100328347?v=4" width="100px;" alt="Foto de Gabriel Montenegro no GitHub"/><br>
+        <sub>
+          <b>Gabriel Montenegro</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
- <h3>4 - Ao abrir post, um modal aparece na tela com o post completo</h3>
- <img src="./src/readme/Modal.png" alt="modal screenshot">
-
- <h3>5 - O botão de fechar modal também possui uma alteração de cor ao passar o mouse por cima</h3>
- <img src="./src/readme/Modal close hover.png" alt="close modal effect">
-
- <h3>6 - Ao clicar no coração em algum post, é possível visualizar que a contagem de curtida sobe e o coração fica vermelho</h3>
- <img src="./src/readme/Like button.png" alt="like post screenshot">
-
-## Funcionalidades
-
-As principais funcionalidades da aplicação são:
-
--   Visualizar modal de cada post da página.
--   Curtir/descurtir posts.
--   Seguir ou deixar de seguir usuários sugeridos
--   Layout responsivo para todos os tipos de aparelho.
-
-## Links
-
--   Deploy: https://m2-rede-social-isgabriel.vercel.app
--   Repository: https://github.com/isgabriel/TechPosters
-
-## Autores
-
--   <strong>Gabriel Fragoso Montenegro</strong>
-
-<p>Por favor, siga o github e junte-se a nós! Obrigado pela visita! <3</p>
+[⬆ Voltar ao topo](#nome-do-projeto)<br>
